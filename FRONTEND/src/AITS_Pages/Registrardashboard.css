@@ -1,0 +1,67 @@
+.issue-card {
+  border: 4px solid #0c0c0c;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background */
+}
+table {
+  background-color: white; /* White background */
+  border-collapse: collapse;
+  width: 100%; /* Ensures the table uses the full width */
+}
+
+th, td {
+  background-color: white; /* Ensures each cell has a white background */
+  padding: 1px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.container {
+  background-color: white; /* Ensures the whole section has a white background */
+  padding: 10px;
+  margin: auto;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds slight shadow for better visibility */
+}
+body {
+  overflow: auto;
+  font-size: 14px; /* Reduce text size */
+}
+
+.container {
+  max-height: 90vh; /* Keeps content within the viewport height */
+  overflow-y: auto; /* Adds scrolling inside the container if needed */
+}
+.textarea {
+  width: 10px;;
+  height: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Light blue heading styles */
+h1, h2 {
+  color: #3c18c0; /* Light blue color */
+}
+
+/* Set the body background to white */
+body {
+  background-color: #ffffff; /* White background for the whole page */
+}
